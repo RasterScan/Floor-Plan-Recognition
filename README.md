@@ -19,6 +19,6 @@ https://huggingface.co/spaces/andywu-kby/Automated-Floor-Plan-Digitalization
  <img src="http://img.youtube.com/vi/UF0xeKG23W4/maxresdefault.jpg" alt="Watch the video" width="960" height="520" border="10" />
 </a>
 
-Please give me STAR to if you like it and reach out to me to get on-premise solution (Email: andywu@kby-ai.com)
+Please give me STAR to if you like it and reach out to me to get on-premise solution (Email: contact@rasterscan.com)
 
 
