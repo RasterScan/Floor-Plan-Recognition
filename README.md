@@ -8,7 +8,7 @@ Raster-to-Vector: Revisiting Floorplan Transformation
 [Here](https://jiajunwu.com/papers/im2cad_iccv.pdf) to download it
 
 ### Demo
-https://huggingface.co/spaces/andywu-kby/Automated-Floor-Plan-Digitalization
+https://huggingface.co/spaces/RasterScan/Automated-Floor-Plan-Digitalization
 
 ### Benifits
 - It will reduce lots of manual work to design floor plan
