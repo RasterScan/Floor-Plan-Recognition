@@ -10,6 +10,9 @@ Raster-to-Vector: Revisiting Floorplan Transformation
 ### Demo
 https://huggingface.co/spaces/RasterScan/Automated-Floor-Plan-Digitalization
 
+### API Portal
+https://rapidapi.com/akashdev2016/api/floor-plan-digitalization
+
 ### Benifits
 - It will reduce lots of manual work to design floor plan
 - It will be more easier to create 3D floor plan automatically
