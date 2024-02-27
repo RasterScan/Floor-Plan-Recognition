@@ -1,3 +1,7 @@
+<div align="center">
+<img alt="" src="https://github.com/RasterScan/Floor-Plan-Digitalization/assets/100861353/9d11859f-ba5e-44cb-84d6-8067327b6ffe.png" width=200/>
+</div>
+
 # Floor-Plan-Digitalization
 
 It's the implementation to convert Raster to Vector on floor plan images.
