@@ -11,8 +11,6 @@ It's the implementation to convert Raster to Vector on floor plan images.
 
 ![vlc-record-2024-04-04-20h47m49s-2024-04-04 20-46-42 mkv-](https://github.com/RasterScan/Floor-Plan-Recognition/assets/100861353/2ff494e2-12bb-4efb-8433-be096739037a)
 
-
-
 ## Original Paper
 Raster-to-Vector: Revisiting Floorplan Transformation
 
@@ -32,6 +30,9 @@ https://rapidapi.com/akashdev2016/api/floor-plan-digitalization
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=UF0xeKG23W4" target="_blank">
  <img src="http://img.youtube.com/vi/UF0xeKG23W4/maxresdefault.jpg" alt="Watch the video" width="960" height="520" border="10" />
 </a>
+
+## Our Products
+[AI-Generated 3D Floor Plan](https://github.com/RasterScan/Floor-Plan-3D-Creation)
 
 Please reach out to me to get on-premise solution (Email: contact@rasterscan.com)
 
