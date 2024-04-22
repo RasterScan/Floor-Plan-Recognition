@@ -12,9 +12,7 @@ It's the implementation to convert Raster to Vector on floor plan images.
 ![vlc-record-2024-04-04-20h47m49s-2024-04-04 20-46-42 mkv-](https://github.com/RasterScan/Floor-Plan-Recognition/assets/100861353/2ff494e2-12bb-4efb-8433-be096739037a)
 
 ## Original Paper
-Raster-to-Vector: Revisiting Floorplan Transformation
-
-[Here](https://jiajunwu.com/papers/im2cad_iccv.pdf) to download it
+[Raster-to-Vector: Revisiting Floorplan Transformation](https://jiajunwu.com/papers/im2cad_iccv.pdf)
 
 ## Demo
 https://huggingface.co/spaces/RasterScan/Automated-Floor-Plan-Digitalization
