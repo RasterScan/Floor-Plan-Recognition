@@ -14,7 +14,7 @@ It's the implementation to convert Raster to Vector on floor plan images.
 ## Installation
 ```bash
 docker pull rasterscan/floor-plan-recognition:latest-cpu
-docker run --name rasterscan-service -d -p 8888:8888 floor-plan-recognition:latest-cpu
+docker run --name rasterscan-service -d -p 8888:8888 rasterscan/floor-plan-recognition:latest-cpu
 ```
 
 ## Update
