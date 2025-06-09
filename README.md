@@ -11,6 +11,12 @@ It's the implementation to convert Raster to Vector on floor plan images.
 
 ![vlc-record-2024-04-04-20h47m49s-2024-04-04 20-46-42 mkv-](https://github.com/RasterScan/Floor-Plan-Recognition/assets/100861353/2ff494e2-12bb-4efb-8433-be096739037a)
 
+## Installation
+```bash
+docker pull rasterscan/floor-plan-recognition:latest-cpu
+docker run --name rasterscan-service -d -p 8888:8888 floor-plan-recognition:latest-cpu
+```
+
 ## Update
 - 2024/08/26. Room determination algorithm is added
 
