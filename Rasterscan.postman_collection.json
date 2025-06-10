@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "c0b68426-1e54-444c-90bc-954718c44667",
+		"name": "Rasterscan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14761864"
+	},
+	"item": [
+		{
+			"name": "Get Machine Code",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": [],
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base_url}}/get_machine_code",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"get_machine_code"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Activate Machine",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"license\": \"fVKudo0tK5OQj0hHCox9+JpeyKkhu2f6mU8/1/0ZpLXnNM3bCYRluMv6akZmMA1N3gM6QrrB4PkdWXr2zHGFE+XpRSmqPATpKDNo2519EHBej3PmJ58P47iXIejQEIYA1kyMOOjOgxgAWoCsX+mtkWxEvzsVMijHJwdqOj1Dd1SQLDSjLbWB9jY5u6+TogCOlZHxKknZXdgQv/o0SoJHoS8FPhNYz26wz61iH3iwdobH6kVuin2xQ65trXwVnhfYv5Nqq7A/Z0P/bbBThOipqWH5ntrI40HbRcLTdOPO/nc6pwg2TcgutSJzRprhpYIRnQ++WuY8ynbhOubbQEcvrQ==\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/activate_machine",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"activate_machine"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Recognize floor plan using raw file",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/D:/Project/Sketcher/auto-draw/images/bugs/176-N-1586087-01.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base_url}}/plan_recognition",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"plan_recognition"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Recognize floor plan using base64 image data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"image\": \"data:image/jpg;base64,  xxxxyyyyyzzzzz....\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/plan_recognition_on_base64",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"plan_recognition_on_base64"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
